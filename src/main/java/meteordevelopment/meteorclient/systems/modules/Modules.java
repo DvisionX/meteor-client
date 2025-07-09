@@ -573,6 +573,8 @@ public class Modules extends System<Modules> {
         add(new ServerSpoof());
         add(new SoundBlocker());
         add(new Spam());
+        add(new DupeTest());
+        add(new ShulkerBreakDup());
         add(new Swarm());
     }
 }
